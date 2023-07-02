@@ -1,0 +1,9 @@
+::sysinit:/etc/init.sh
+::shutdown:/etc/shutdown.sh
+::restart:/sbin/init
+
+tty1::respawn:/bin/login -f root
+#tty2::respawn:/bin/login -f root
+#tty3::respawn:/bin/login -f root
+#tty4::respawn:/bin/login -f root
+#tty5::respawn:/bin/login -f root
